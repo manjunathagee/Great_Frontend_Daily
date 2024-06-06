@@ -6,7 +6,7 @@ const Card = () => {
     <div className="rounded-md shadow-lg p-4 max-w-md m-2 bg-white">
       <div className="flex mb-4 gap-2">
         <Image
-          src="/card/profile-thumbnail.png"
+          src="/images/card/profile-thumbnail.png"
           width={50}
           height={40}
           alt="profile picture"

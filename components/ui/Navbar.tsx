@@ -13,6 +13,7 @@ export function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Components">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/card">Card Component</HoveredLink>
+            <HoveredLink href="/email-subscribe">Email Subscribe</HoveredLink>
           </div>
         </MenuItem>
       </Menu>
