@@ -14,6 +14,7 @@ export function Navbar({ className }: { className?: string }) {
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/card">Card Component</HoveredLink>
             <HoveredLink href="/email-subscribe">Email Subscribe</HoveredLink>
+            <HoveredLink href="/product-cart">Product Cart</HoveredLink>
           </div>
         </MenuItem>
       </Menu>
