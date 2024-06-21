@@ -12,9 +12,14 @@ export function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Components">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/card">Card Component</HoveredLink>
-            <HoveredLink href="/email-subscribe">Email Subscribe</HoveredLink>
-            <HoveredLink href="/product-cart">Product Cart</HoveredLink>
+            <HoveredLink href="/mini-projects/card">Card Component</HoveredLink>
+            <HoveredLink href="/mini-projects/email-subscribe">
+              Email Subscribe
+            </HoveredLink>
+            <HoveredLink href="/mini-projects/product-cart">
+              Product Cart
+            </HoveredLink>
+            <HoveredLink href="/astro-ship">Astro Ship</HoveredLink>
           </div>
         </MenuItem>
       </Menu>

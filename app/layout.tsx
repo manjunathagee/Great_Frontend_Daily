@@ -16,23 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <AuroraBackground>
-          <motion.div
-            initial={{ opacity: 0.0, y: 40 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              delay: 0.3,
-              duration: 0.8,
-              ease: "easeInOut",
-            }}
-            className="relative flex flex-col gap-4 items-center justify-center px-4"
-          >
-            <Navbar />
-            {children}
-          </motion.div>
-        </AuroraBackground>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
