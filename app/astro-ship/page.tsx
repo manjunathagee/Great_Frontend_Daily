@@ -1,3 +1,5 @@
+("");
+
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
@@ -23,12 +25,24 @@ import { TbBrandAstro } from "react-icons/tb";
 import { SiSvelte } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { SiPrisma } from "react-icons/si";
+import { RxHamburgerMenu } from "react-icons/rx";
+import {
+  Drawer,
+  DrawerClose,
+  DrawerContent,
+  DrawerDescription,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerTitle,
+  DrawerTrigger,
+} from "@/components/ui/drawer";
+import { Button } from "@/components/ui/button";
 
 const AstroShip = () => {
   return (
     <>
       <div className="max-w-screen-xl mx-auto px-5">
-        <header className="flex flex-col lg:flex-row justify-between items-center my-5">
+        <header className="flex  justify-between items-center my-5">
           <div className="flex w-full lg:w-auto items-center justify-between">
             <Link href="/" className="text-lg">
               <span className="font-bold text-slate-800 ">Astro</span>
@@ -74,11 +88,34 @@ const AstroShip = () => {
               </li>
             </ul>
           </nav>
-          <div className="hidden lg:flex gap-2">
-            <button>Log in</button>
-            <button className="bg-black text-white text-center border-2 border-transparent rounded px-4 py-2 hover:bg-gray-800">
-              Sign up
-            </button>
+          <div>
+            <div className="hidden lg:flex gap-2">
+              <button>Log in</button>
+              <button className="bg-black text-white text-center border-2 border-transparent rounded px-4 py-2 hover:bg-gray-800">
+                Sign up
+              </button>
+            </div>
+            <div className="lg:hidden">
+              <Drawer>
+                <DrawerTrigger asChild>
+                  <RxHamburgerMenu />
+                </DrawerTrigger>
+                <DrawerContent>
+                  <DrawerHeader>
+                    <DrawerTitle>Are you absolutely sure?</DrawerTitle>
+                    <DrawerDescription>
+                      This action cannot be undone.
+                    </DrawerDescription>
+                  </DrawerHeader>
+                  <DrawerFooter>
+                    <Button>Submit</Button>
+                    <DrawerClose>
+                      <Button variant="outline">Cancel</Button>
+                    </DrawerClose>
+                  </DrawerFooter>
+                </DrawerContent>
+              </Drawer>
+            </div>
           </div>
         </header>
       </div>
@@ -217,7 +254,7 @@ const AstroShip = () => {
           </div>
         </div>
       </div>
-      <footer className="flex justify-center my-10 mx-auto max-w-screen-lg">
+      <footer className="flex justify-center my-10 mx-auto container">
         <div className="bg-black text-white rounded flex flex-col items-center justify-center text-center w-full p-16">
           <h6 className="text-6xl">Build faster websites.</h6>
           <p className="text-slate-500 mt-6 text-lg">

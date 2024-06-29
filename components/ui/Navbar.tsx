@@ -20,6 +20,7 @@ export function Navbar({ className }: { className?: string }) {
               Product Cart
             </HoveredLink>
             <HoveredLink href="/astro-ship">Astro Ship</HoveredLink>
+            <HoveredLink href="/nike-shop">Nike Shop</HoveredLink>
           </div>
         </MenuItem>
       </Menu>
