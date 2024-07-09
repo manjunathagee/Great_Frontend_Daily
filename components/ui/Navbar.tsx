@@ -12,6 +12,9 @@ export function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="Components">
           <div className="flex flex-col space-y-4 text-sm">
+            <HoveredLink href="/frontend-mentor">
+              Frontend Mentor Daily
+            </HoveredLink>
             <HoveredLink href="/mini-projects/card">Card Component</HoveredLink>
             <HoveredLink href="/mini-projects/email-subscribe">
               Email Subscribe
