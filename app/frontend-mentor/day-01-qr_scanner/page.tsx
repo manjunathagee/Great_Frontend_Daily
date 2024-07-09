@@ -3,7 +3,7 @@ import React from "react";
 
 const QRScanner = () => {
   return (
-    <div className="h-screen bg-[#D5E1EF] flex items-center justify-center">
+    <article className="h-screen bg-[#D5E1EF] flex items-center justify-center">
       <div className="rounded-lg bg-white p-4 max-w-sm flex flex-col items-center">
         <div className="overflow-hidden rounded-lg">
           <img
@@ -22,7 +22,7 @@ const QRScanner = () => {
           </p>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 

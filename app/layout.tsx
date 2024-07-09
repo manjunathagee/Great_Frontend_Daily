@@ -12,6 +12,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>Daily UI Challenges from GreatFrontend and Frontend Mentors</title>
       <body className={inter.className}>{children}</body>
     </html>
   );
