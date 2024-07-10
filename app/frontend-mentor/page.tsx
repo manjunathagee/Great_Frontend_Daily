@@ -11,6 +11,11 @@ const links = [
     title: "Day-01 QR Scanner",
     link: "/frontend-mentor/day-01-qr_scanner",
   },
+  {
+    id: 2,
+    title: "Day-02 Blog preview card",
+    link: "/frontend-mentor/day-02-blog_preview_card",
+  },
 ];
 
 const FrontendMentor = () => {
@@ -31,9 +36,13 @@ const FrontendMentor = () => {
           <div className="md:text-4xl font-bold dark:text-white text-center">
             Daily UI Challenges from Frontend Mentors.
           </div>
-          <div className="font-extralight text-xl dark:text-neutral-200 py-4 hover:text-blue-500">
+          <div className="font-extralight text-xl dark:text-neutral-200 py-4 grid grid-cols-2">
             {links.map((link) => (
-              <Link href={link.link} key={link.id}>
+              <Link
+                href={link.link}
+                key={link.id}
+                className="hover:text-blue-400"
+              >
                 {link.title}
               </Link>
             ))}
