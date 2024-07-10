@@ -16,6 +16,11 @@ const links = [
     title: "Day-02 Blog preview card",
     link: "/frontend-mentor/day-02-blog_preview_card",
   },
+  {
+    id: 3,
+    title: "Day-03 Social Profile Links",
+    link: "/frontend-mentor/day-03-social_profile_link",
+  },
 ];
 
 const FrontendMentor = () => {
