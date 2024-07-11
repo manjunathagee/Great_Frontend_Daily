@@ -4,7 +4,7 @@ import React from "react";
 const RecipePage = () => {
   return (
     <main className="flex items-center justify-center bg-[#F3E5D7] p-4">
-      <article className="flex flex-col gap-8 bg-white p-6 rounded-2xl w-[736px] mt-20">
+      <article className="flex flex-col gap-8 bg-white p-8 rounded-2xl w-[736px] mt-28">
         <div className="w-full h-[#300px] overflow-hidden rounded-xl">
           <img
             src="/images/frontend-mentor/recipe-page/omelette.jpeg"
@@ -29,14 +29,14 @@ const RecipePage = () => {
               Preparation time
             </h2>
             <ul className="list-disc mx-6 text-sm text-[#5F564D]">
-              <li className="custom-bullet ">
+              <li className="custom-bullet my-2">
                 <span className="font-bold">Total:</span> Approximately 10
                 minutes
               </li>
-              <li className="custom-bullet ">
+              <li className="custom-bullet my-2">
                 <span className="font-bold">Preparation:</span> 5 minutes
               </li>
-              <li className="custom-bullet ">
+              <li className="custom-bullet my-2">
                 <span className="font-bold">Cooking:</span> 5 minutes
               </li>
             </ul>
@@ -49,11 +49,13 @@ const RecipePage = () => {
             Ingredients
           </h2>
           <ul className="list-disc mx-6 text-[#5F564D] text-sm">
-            <li className="custom-bullet">2-3 large eggs</li>
-            <li className="custom-bullet">Salt, to taste</li>
-            <li className="custom-bullet">Pepper, to taste</li>
-            <li className="custom-bullet">1 tablespoon of butter of oil</li>
-            <li className="custom-bullet">
+            <li className="custom-bullet my-2">2-3 large eggs</li>
+            <li className="custom-bullet my-2">Salt, to taste</li>
+            <li className="custom-bullet my-2">Pepper, to taste</li>
+            <li className="custom-bullet my-2">
+              1 tablespoon of butter of oil
+            </li>
+            <li className="custom-bullet my-2">
               Optional fillings: cheese, diced vegetables, cooked meats, herbs
             </li>
           </ul>
@@ -65,34 +67,34 @@ const RecipePage = () => {
             Instructions
           </h2>
           <ol className="list-decimal ml-6 text-[#5F564D] text-sm">
-            <li className="custom-bullet">
+            <li className="custom-bullet my-2">
               <span className="font-semibold">Beat the eggs:</span> In a bowl,
               beat the eggs with a pinch of salt and pepper until they are well
               mixed. You can add a tablespoon of water or milk for a fluffier
               texture.
             </li>
-            <li className="custom-bullet">
+            <li className="custom-bullet my-2">
               <span className="font-semibold">Heat the pan:</span> Place a
               non-stick frying pan over medium heat and add butter or oil.
             </li>
-            <li className="custom-bullet">
+            <li className="custom-bullet my-2">
               <span className="font-semibold">Cook the omelette:</span> Once the
               butter is melted and bubbling, pour in the eggs. Tilt the pan to
               ensure the eggs evenly coat the surface.
             </li>
-            <li className="custom-bullet">
+            <li className="custom-bullet my-2">
               <span className="font-semibold">Add fillings (optional):</span>{" "}
               When the eggs begin to set at the edges but are still slightly
               runny in the middle, sprinkle your chosen fillings over one half
               of the omelette.
             </li>
-            <li className="custom-bullet">
+            <li className="custom-bullet my-2">
               <span className="font-semibold">Fold and serve:</span> As the
               omelette continues to cook, carefully lift one edge and fold it
               over the fillings. Let it cook for another minute, then slide it
               onto a plate.
             </li>
-            <li className="custom-bullet">
+            <li className="custom-bullet my-2">
               <span className="font-semibold">Enjoy:</span> Serve hot, with
               additional salt and pepper if needed.
             </li>
