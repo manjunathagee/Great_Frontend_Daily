@@ -76,6 +76,10 @@ const config = {
         "5xl": "5px 5px 0 rgb(0,0,0)",
         "14xl": "14px 14px 0 rgb(0,0,0)",
       },
+      fontFamily: {
+        Young_Serif: ["Young Serif", "serif"],
+        Outfit: ["Outfit", "serif"],
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

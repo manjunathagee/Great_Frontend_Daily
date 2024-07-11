@@ -21,6 +21,11 @@ const links = [
     title: "Day-03 Social Profile Links",
     link: "/frontend-mentor/day-03-social_profile_link",
   },
+  {
+    id: 4,
+    title: "Day-04 Recipe Page",
+    link: "/frontend-mentor/day-04-recipe_page",
+  },
 ];
 
 const FrontendMentor = () => {
@@ -41,7 +46,7 @@ const FrontendMentor = () => {
           <div className="md:text-4xl font-bold dark:text-white text-center">
             Daily UI Challenges from Frontend Mentors.
           </div>
-          <div className="font-extralight text-xl dark:text-neutral-200 py-4 grid grid-cols-2">
+          <div className="font-extralight text-xl dark:text-neutral-200 py-4 grid grid-cols-2 gap-2">
             {links.map((link) => (
               <Link
                 href={link.link}
