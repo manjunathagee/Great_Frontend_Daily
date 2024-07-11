@@ -4,7 +4,7 @@ import React from "react";
 const RecipePage = () => {
   return (
     <main className="flex items-center justify-center bg-[#F3E5D7] p-4">
-      <article className="flex flex-col gap-8 bg-white p-6 rounded-2xl w-[736px]">
+      <article className="flex flex-col gap-8 bg-white p-6 rounded-2xl w-[736px] mt-20">
         <div className="w-full h-[#300px] overflow-hidden rounded-xl">
           <img
             src="/images/frontend-mentor/recipe-page/omelette.jpeg"
@@ -25,9 +25,9 @@ const RecipePage = () => {
 
           {/* Preparation time card */}
           <div className="bg-[hsl(330,100%,98%)] rounded-lg p-6">
-            <h3 className="text-[#7A284E] font-medium my-2">
+            <h2 className="text-[#7A284E] font-medium my-2">
               Preparation time
-            </h3>
+            </h2>
             <ul className="list-disc mx-6 text-sm text-[#5F564D]">
               <li className="custom-bullet ">
                 <span className="font-bold">Total:</span> Approximately 10
