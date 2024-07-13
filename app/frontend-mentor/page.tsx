@@ -26,6 +26,11 @@ const links = [
     title: "Day-04 Recipe Page",
     link: "/frontend-mentor/day-04-recipe_page",
   },
+  {
+    id: 5,
+    title: "Day-05 Product Review Card",
+    link: "/frontend-mentor/day-05-product_review_card",
+  },
 ];
 
 const FrontendMentor = () => {

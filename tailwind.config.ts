@@ -79,6 +79,8 @@ const config = {
       fontFamily: {
         Young_Serif: ["Young Serif", "serif"],
         Outfit: ["Outfit", "serif"],
+        Montserrat: ["Montserrat", "serif"],
+        Fraunces: ["Fraunces", "serif"],
       },
     },
   },
