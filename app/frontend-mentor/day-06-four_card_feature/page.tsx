@@ -3,7 +3,7 @@ import React from "react";
 
 const FourSectionFeatures = () => {
   return (
-    <main className="font-Poppins h-full py-20 justify-center flex bg-[#F2F2F2] text-[#4D4F62] ">
+    <main className="font-Poppins h-screen py-20 justify-center flex bg-[#F2F2F2] text-[#4D4F62] ">
       <section className="text-center space-y-6 container mx-auto">
         <div className="space-y-2">
           <h1 className="font-extralight text-2xl md:text-4xl tracking-wide">
@@ -19,7 +19,7 @@ const FourSectionFeatures = () => {
         </div>
         <div className="flex flex-col lg:flex-row space-y-4 md:space-x-4 md:items-center">
           <div className="h-[250px] w-[#350] shadow-2xl rounded-lg border-t-4 p-4 border-[#44D3D2] text-left space-y-2 relative">
-            <h3 className="font-semibold">Supervisor</h3>
+            <h2 className="font-semibold">Supervisor</h2>
             <p className="font-light max-w-xs">
               Monitors activity to identify project roadblocks
             </p>
@@ -31,7 +31,7 @@ const FourSectionFeatures = () => {
           </div>
           <div className="flex flex-col gap-6">
             <div className="h-[250px] w-[#350] shadow-2xl rounded-lg border-t-4 p-4 border-[#EA5454] text-left space-y-2 relative">
-              <h3 className="font-semibold">Team Builder</h3>
+              <h2 className="font-semibold">Team Builder</h2>
               <p className="font-light max-w-xs">
                 Scans our talent network to create the optimal team for your
                 project
@@ -43,7 +43,7 @@ const FourSectionFeatures = () => {
               />
             </div>
             <div className="h-[250px] w-[#350] shadow-2xl rounded-lg border-t-4 p-4 border-[#FCAE4A] text-left space-y-2 relative">
-              <h3 className="font-semibold">Karma</h3>
+              <h2 className="font-semibold">Karma</h2>
               <p className="font-light max-w-xs">
                 Regularly evaluates our talent to endsure quality
               </p>
@@ -55,7 +55,7 @@ const FourSectionFeatures = () => {
             </div>
           </div>
           <div className="h-[250px] w-[#350] shadow-2xl rounded-lg border-t-4 p-4 border-[#549EF2] text-left space-y-2 relative">
-            <h3 className="font-semibold">Calculator</h3>
+            <h2 className="font-semibold">Calculator</h2>
             <p className="font-light max-w-xs">
               Uses data from past projects to provide better delivery estimates
             </p>
