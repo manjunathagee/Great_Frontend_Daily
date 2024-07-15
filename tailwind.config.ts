@@ -81,6 +81,7 @@ const config = {
         Outfit: ["Outfit", "serif"],
         Montserrat: ["Montserrat", "serif"],
         Fraunces: ["Fraunces", "serif"],
+        Poppins: ["Poppins", "serif"],
       },
     },
   },
