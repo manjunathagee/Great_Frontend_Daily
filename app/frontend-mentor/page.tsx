@@ -36,6 +36,11 @@ const links = [
     title: "Day-06 Four Card Feature",
     link: "/frontend-mentor/day-06-four_card_feature",
   },
+  {
+    id: 7,
+    title: "Day-07 Password Generator",
+    link: "/frontend-mentor/day-07-password_generator",
+  },
 ];
 
 const FrontendMentor = () => {

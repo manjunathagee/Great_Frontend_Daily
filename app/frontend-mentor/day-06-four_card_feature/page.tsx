@@ -17,7 +17,7 @@ const FourSectionFeatures = () => {
             data points to ensure that your project is successful
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row space-y-4 md:space-x-4 md:items-center">
+        <div className="flex flex-col lg:flex-row space-y-4 md:space-x-4 md:items-center md:justify-center">
           <div className="h-[250px] w-[#350] shadow-2xl rounded-lg border-t-4 p-4 border-[#44D3D2] text-left space-y-2 relative">
             <h2 className="font-semibold">Supervisor</h2>
             <p className="font-light max-w-xs">

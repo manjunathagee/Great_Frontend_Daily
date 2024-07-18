@@ -52,6 +52,24 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        dark: {
+          200: "#E6E5EA",
+          400: "#817D92",
+          600: "#24232C",
+          800: "#18171F",
+        },
+        red: {
+          500: "#F64A4A",
+        },
+        orange: {
+          300: "#FB7C58",
+        },
+        yellow: {
+          300: "#F8CD65",
+        },
+        green: {
+          200: "#A4FFAF",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -82,6 +100,8 @@ const config = {
         Montserrat: ["Montserrat", "serif"],
         Fraunces: ["Fraunces", "serif"],
         Poppins: ["Poppins", "serif"],
+        inter: ["var(--font-inter)"],
+        jetbrainsMono: ["var(--font-jetbrains-mono)"],
       },
     },
   },
