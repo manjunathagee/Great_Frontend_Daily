@@ -24,6 +24,9 @@ export function Navbar({ className }: { className?: string }) {
             </HoveredLink>
             <HoveredLink href="/astro-ship">Astro Ship</HoveredLink>
             <HoveredLink href="/nike-shop">Nike Shop</HoveredLink>
+            <HoveredLink href="/mini-projects/swappy-rearrange-cards">
+              Swappy Demo
+            </HoveredLink>
           </div>
         </MenuItem>
       </Menu>
